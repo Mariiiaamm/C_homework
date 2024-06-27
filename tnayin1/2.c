@@ -12,7 +12,7 @@ int main(void)
     int maxElement=l, maxRow=g, maxCol=q; 
     l=b[1][1], g=1, q=1; 
     for(i=1; i<=n; i++) 
-        for(j=1; j<=m; j++) 
+        for(j=1; j<=m; j++)
             if(b[i][j]>l) 
                 l=b[i][j], g=i, q=j; 
     S=0; P=0; 
